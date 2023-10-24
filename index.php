@@ -21,7 +21,10 @@
 </div>
 
 <div class="container box">
-    <p>TODO list articles here</p>
+            <?php
+            include('pagination.php');
+            ?>
+    </table>
 </div> <!-- class="container box"-->
 
 <footer class="footer">
